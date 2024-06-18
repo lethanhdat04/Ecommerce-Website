@@ -7,7 +7,7 @@ const MainCarousel = () => {
 
     const items = mainCarouselData.map((item)=> <img className='cursor-pointer' role='presentation' src={item.image} alt=""/>)
   return (
-    <div className='-z-10 '>
+    <div className='-z-10 w-full h-full'>
       <AliceCarousel
         mouseTracking
         items={items}
